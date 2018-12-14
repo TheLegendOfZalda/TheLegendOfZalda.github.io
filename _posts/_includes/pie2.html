@@ -1,0 +1,22 @@
+<script>
+
+    var pieChart2 = c3.generate({
+        bindto: '#pie2',
+        data: {
+            // iris data from R
+            columns: [
+                ['partially released', 19],
+                ['fully released', 1],
+            ],
+            colors: {
+                'partially released': '#d14576',
+                'fully released': '#c1ccdd'
+            },
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+
+</script>

@@ -4,6 +4,7 @@ title: Secrets inside Clinton's email
 ---
 > By Junze Li, Yusi Zou, Zhantao Deng.
 
+<iframe src="TheLegendOfZalda.github.io/_includes/pie1.html" width="100%" height="100px"></iframe>
 
 ## **Background**
 In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
@@ -45,11 +46,11 @@ _**An interesting observation**: The difference of the person's position in the 
 
 <div id="pie1"></div>
 {% include_relative _includes/pie1.html %}
-
+<div id="pie2"></div>
 {% include_relative _includes/pie2.html %}
 
 
-&nbsp;{% include_relative _includes/pie2.html %}
+&nbsp;
 
 **- Hillary as sender VS Hillary as receiver**
 
