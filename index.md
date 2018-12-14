@@ -4,10 +4,10 @@ title: Secrets inside Clinton's email
 ---
 > By Junze Li, Yusi Zou, Zhantao Deng
 
-INDEX
+{% include_relative _includes/styles.html %}
+{% include_relative _includes/scripts.html %}
 
 <div id="pie1"></div>
-{% include_relative _includes/pie1.html %}
 
 <img src="image/nw-freq-rec.png" class="img-centered" style="width:100%;height:100%;">
 
