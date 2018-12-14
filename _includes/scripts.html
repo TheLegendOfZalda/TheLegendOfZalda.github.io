@@ -1,0 +1,158 @@
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.18/c3.min.js"></script>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+
+    function changeUserContent(user){
+
+      var description1 = "Based on playlist record, 32.1 % of user playcounts contribute to at least 2 songs from the following singers:<br><br>Benabar :Les Mots D'Amour,L'Itinéraire,Y'a Une Fille Qu'Habite Chez Moi,<br><br>The genre this user love the most: 1.French"
+      var description2 = "Based on playlist record, 78.6 % of user playcounts contribute to at least 2 songs from the following singers:<br><br>Local Natives : Who Knows Who Cares, Sun Hands, Camera Talk <br> Phoenix : Girlfriend, Armistice <br> This Will Destroy You : Quiet, There Are Some Remedies Worse Than The Disease <br> Happiness: We're All In It Together <br><br> The genre this user love the most: 1.indie, 2.post-rock"  
+
+      if(user=="user1"){
+        document.getElementById("description").innerHTML = description1;
+      } else {
+        document.getElementById("description").innerHTML = description2;
+      }
+
+        //replace by csv if you want
+        d3.csv("{{ "/project/web/data/favorite_singer_" | relative_url }}"+user+".csv", function(error, data){
+        
+          var data = data
+          // Get every column value
+          var elements = Object.keys(data[0])
+              .filter(function(d){
+            //index column removed
+                  return (d != "artist");
+              });
+          var selection = elements[0];
+      
+        newData = data.map(function(value,index) { return value["play_count"]; });
+        newData.unshift("Artist");
+      
+        var chart = c3.generate({
+          bindto: "#barChartQ4_1",
+          data: {
+            columns: [
+                newData
+            ],
+            type: 'bar'
+          },
+          bar: {
+            width: {
+              ratio: 0.75 // this makes bar width 75% of length between ticks
+            }
+          },
+          axis: {
+            x: {
+              type:'category',
+              categories: data.map(function(value,index) { return value['artist']; })
+            },
+            y: {
+              label: {
+                  text: 'Play count',
+                  position: 'outer-middle'
+              }
+            }
+          }
+        });
+      
+      });
+      
+      d3.csv("{{ "/project/web/data/genre_" | relative_url }}"+user+".csv", function(error, data){
+      
+          var data = data
+          // Get every column value
+          var elements = Object.keys(data[0])
+              .filter(function(d){
+          //index column removed
+                  return (d != "genre");
+              });
+          var selection = elements[0];
+
+          newData = data.map(function(value,index) { return value["play_count"]; });
+          newData.unshift("Genre");
+
+          var chart = c3.generate({
+              bindto: "#barChartQ4_2",
+              data: {
+              columns: [
+                  newData
+              ],
+              type: 'bar'
+              },
+              bar: {
+              width: {
+                  ratio: 0.75 // this makes bar width 75% of length between ticks
+              }
+              },
+              axis: {
+              x: {
+                  type:'category',
+                  categories: data.map(function(value,index) { return value['genre']; })
+              },
+              y: {
+                  label: {
+                      text: 'Play count',
+                      position: 'outer-middle'
+                  }
+              }
+              }
+          });
+      });
+    }
+
+    function changeTableContentQ2(artist_name){
+
+    var tb2 = document.getElementById("tableQ2");   // Get the <ul> element with id="myList"
+    tb2.removeChild(tb2.childNodes[0]);      
+
+    if(artist_name=="Ed_Sheeran"){
+      img_file = artist_name + ".jpg";
+    } else {
+      img_file = artist_name + ".png";
+    }
+
+    img        = document.createElement("img");
+    img.src    = "{{ "/project/web/img/" | relative_url }}"+img_file;
+    img.width  = 180;
+    img.height = 240;
+    img.alt    = artist_name;
+
+    var pictQ2 = document.getElementById("pictQ2");   // Get the <ul> element with id="myList"
+    pictQ2.removeChild(pictQ2.childNodes[0]);  
+    pictQ2.appendChild(img);
+
+    d3.text("{{ "/project/web/data/" | relative_url }}"+artist_name+".csv", function(data) {
+      var parsedCSV = d3.csv.parseRows(data);
+
+        var container = d3.select("#tableQ2")
+            .append("table")
+
+            .selectAll("tr")
+                .data(parsedCSV).enter()
+                .append("tr")
+
+            .selectAll("td")
+                .data(function(d) { return d; }).enter()
+                .append("td")
+                .text(function(d) { return d; });
+    });
+
+    }
+</script>
