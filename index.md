@@ -1,20 +1,26 @@
 ---
-layout: default
+layout: page
 title: Secrets inside Clinton's email
 ---
 > By Junze Li, Yusi Zou, Zhantao Deng
 
-{% include_relative _includes/styles.html %}
 {% include_relative _includes/scripts.html %}
 
 
 ## **Background**
+<div align="justify">
+<p>
 In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
+</p>
 
-We will look at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by [Kaggle](https://www.kaggle.com/kaggle/hillary-clinton-emails). We will also analyze the personal social network of Hillary Clinton and the top topics they discussed.
+<p>
+We will look at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle</a>. We will also analyze the personal social network of Hillary Clinton and the top topics they discussed.
+</p>
 
+<p>
 As a superpower, the United States has a great impact on the world’s stability, and their position and attitude will strongly influence the international affairs. We want to figure out the countries mainly mentioned, the problems concerned and conclude the impact they made on the international affairs throughout the analysis of these emails.
-
+</p>
+</div>
 &nbsp;
 
 ---

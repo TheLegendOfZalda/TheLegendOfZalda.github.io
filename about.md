@@ -4,15 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This is a Data Story made for the analysis of the emails released by the States Department after the [Hillary Clinton Email Controversy](https://en.wikipedia.org/wiki/Hillary_Clinton_email_controversy).   
+  
+The data was cleaned by [Kaggle](https://www.kaggle.com/kaggle/hillary-clinton-emails).   
+  
+The source code of the website can be found on [Github](https://github.com/TheLegendOfZalda/TheLegendOfZalda.github.io)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+The project is made by the best team in the universe:   
+<center><a href="https://github.com/TheLegendOfZalda"><b><font size="+2">TheLegendOfZalda</font></b></a></center>
 
 
-[jekyll-organization]: https://github.com/jekyll
