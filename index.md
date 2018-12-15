@@ -105,6 +105,13 @@ Hillary was the secretary of state and responsible for diplomacy of US in the pe
   <source src="country-occ.mp4" type="video/mp4">
 </video>
 -->
+
+<video width="720" height="480" autoplay muted loop>
+  <source src="country-occ.mp4" type="video/mp4">
+  <p>Your browser does not support the video element.</p>
+</video>
+
+<!--
 <iframe 
     width="100%" 
     height="418" 
@@ -114,6 +121,7 @@ Hillary was the secretary of state and responsible for diplomacy of US in the pe
     frameborder="0" 
     allowfullscreen>
 </iframe>
+-->
 
 {% include_relative _includes/bar_plot_top20_occurence.html %}
 
