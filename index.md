@@ -100,10 +100,20 @@ Hillary was the secretary of state and responsible for diplomacy of US in the pe
 > 上图！正
 > 
 
-
+<!--
 <video width="660" height="440" autoplay="autoplay" loop="loop">
   <source src="country-occ.mp4" type="video/mp4">
 </video>
+-->
+<iframe 
+    width="100%" 
+    height="418" 
+    autoplay="autoplay"
+    loop="loop"
+    src="country-occ.mp4"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
 
 {% include_relative _includes/bar_plot_top20_occurence.html %}
 
