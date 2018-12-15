@@ -152,11 +152,20 @@ The data set provides us informtion about whether the email is fully or partiall
 
 <iframe src="map_borders.html" width="100%" height="400">Your browser does not support iframes.</iframe>
 
+{% include_relative _includes/bar_plot_top20_occurence.html %}
+
 It is obvious that asian countries and middle east countries are the most frequently mentioned countries in Hillary's emails. There are also some european countries and central america countries often appear in the emails, such as the United Kingdom and Haiti.  
 
 Middle east countries like Pakistan, Afghanistan, Oman, Iran, Iraq and Israel are the top 6 countries mentioned in the emails.  
 
 **Is there some relation with the events happening at that moment?**  
+
+<video width="720" height="480" autoplay muted loop>
+  <source src="country-occ.mp4" type="video/mp4">
+  <p>Your browser does not support the video element.</p>
+</video>
+
+
 Let's have a look at the timing of mentioning those countries.
 >根据时间和事件分别分析重点国家，如海地利比亚之类的，多几个国家，可以参考我们的model
 
@@ -167,17 +176,12 @@ Let's have a look at the timing of mentioning those countries.
 
 # **What does she think about these countries?**
 Hillary was the secretary of state and responsible for diplomacy of US in the period from 2008 to 2013. Therefore, from her emails, we can find out the attitude of US in diplomatic relations with other countries.
-> 上图！正
-> 
+
+{% include_relative _includes/positive_sentiment.html %}
 
 
-<video width="720" height="480" autoplay muted loop>
-  <source src="country-occ.mp4" type="video/mp4">
-  <p>Your browser does not support the video element.</p>
-</video>
 
 
-{% include_relative _includes/bar_plot_top20_occurence.html %}
 
 &nbsp;
 
@@ -216,7 +220,7 @@ After analysis about the bilateral relations with some typical countries or regi
 
 &nbsp;
 
-> 上图！反
+{% include_relative _includes/negative_sentiment.html %}
 
 &nbsp;
 
