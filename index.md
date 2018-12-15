@@ -89,6 +89,12 @@ Let's have a look at the timing of mentioning those countries.
 Hillary was the secretary of state and responsible for diplomacy of US in the period from 2008 to 2013. Therefore, from her emails, we can find out the attitude of US in diplomatic relations with other countries.
 > 上图！正
 
+{% include_relative _includes/bar_plot_top20_occurence.html %}
+
+&nbsp;
+
+&nbsp;
+
 The Hilary's emails are within the period from 2008 to 2013, so we will associate US's policy and international events to the sentiments of Hilary's emails. We highlight some countries and regions here:
 
 **China**:
@@ -137,6 +143,8 @@ Same as for the positive sentiment countries, we highlight the following countri
 After analysis about the bilateral relations with some typical countries, we find that countries with which Hillary had a negative sentiment all have one of the following properties:
 - Country in NATO taking the same position with US
 - Country with an unstable government or with an difficult political situation
+
+{% include_relative _includes/Libya.html %}
 
 &nbsp;
 
