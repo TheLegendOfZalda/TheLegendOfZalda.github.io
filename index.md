@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: default
 title: Secrets inside Clinton's email
 ---
 > By Junze Li, Yusi Zou, Zhantao Deng
 
+{% include_relative _includes/styles.html %}
 {% include_relative _includes/scripts.html %}
 
 
@@ -77,9 +78,9 @@ _**An interesting observation**: The difference of the person's position in the 
 ---
 &nbsp;
 
-## **She's concerned about these countries ...**
-> pie chart  
-> directly map, we can select by month
+## **She's concerned about these countries ...** 
+
+<iframe src="map_borders.html" width="100%" height="400">Your browser does not support iframes.</iframe>
 
 It is obvious that asian countries and middle east countries are the most frequently mentioned countries in Hillary's emails. There are also some european countries and central america countries often appear in the emails, such as the United Kingdom and Haiti.  
 
@@ -97,6 +98,8 @@ Let's have a look at the timing of mentioning those countries.
 ## **She's attitude to these countries ...**
 Hillary was the secretary of state and responsible for diplomacy of US in the period from 2008 to 2013. Therefore, from her emails, we can find out the attitude of US in diplomatic relations with other countries.
 > 上图！正
+> 
+
 
 <video width="660" height="440" autoplay="autoplay" loop="loop">
   <source src="country-occ.mp4" type="video/mp4">
