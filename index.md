@@ -118,17 +118,7 @@ Another right-hand woman of Hillary Clinton. From the last point we can also see
 The data set provides us informtion about whether the email is fully or partially released by the States Department. We use this information to observe whether this is related to the anonymity of senders. 
 </div>
 
-<div align="center">
-	<font size="+1">All emails sent to Hillary</font>
-</div> 
-<div id="pie1"></div>
-{% include_relative _includes/pie1.html %}
-
-<div align="center">
-	<font size="+1">Anonymous emails sent to Hillary</font>
-</div> 
-<div id="pie2"></div>
-{% include_relative _includes/pie2.html %}
+{% include_relative _includes/double_pie.html %}
 
 <div align="justify">
 <p>We suppose that the anonymous emails sent to Hillary are possibly confidential, that the sender is erased by the State Department before release. Almost all of them are released partially.</p>
