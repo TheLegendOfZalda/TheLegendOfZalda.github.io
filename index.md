@@ -7,9 +7,6 @@ title: Secrets inside Clinton's email
 {% include_relative _includes/styles.html %}
 {% include_relative _includes/scripts.html %}
 
-<div id="pie1"></div>
-
-<img src="image/nw-freq-rec.png" class="img-centered" style="width:100%;height:100%;">
 
 ## **Background**
 In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
@@ -31,6 +28,12 @@ Let's first have a look at to whom does Hillary communicate most in both directi
 > barplot 
 >
 > 15 most freqent senders  // frequent receivers
+> 
+<div id="pie3"></div>
+{% include_relative _includes/pie3.html %}
+
+<div id="pie4"></div>
+{% include_relative _includes/pie4.html %}
 
 There are obviously some people who are much closer to Hillary. We highlight those people and have a glance at their position.
 
@@ -48,9 +51,9 @@ _**An interesting observation**: The difference of the person's position in the 
 >pie chart  
 >explanation of context and result 
 
-
 <div id="pie1"></div>
 {% include_relative _includes/pie1.html %}
+
 <div id="pie2"></div>
 {% include_relative _includes/pie2.html %}
 
@@ -88,6 +91,10 @@ Let's have a look at the timing of mentioning those countries.
 ## **She's attitude to these countries ...**
 Hillary was the secretary of state and responsible for diplomacy of US in the period from 2008 to 2013. Therefore, from her emails, we can find out the attitude of US in diplomatic relations with other countries.
 > 上图！正
+
+<video width="660" height="440" autoplay="autoplay" loop="loop">
+  <source src="country-occ.mp4" type="video/mp4">
+</video>
 
 {% include_relative _includes/bar_plot_top20_occurence.html %}
 

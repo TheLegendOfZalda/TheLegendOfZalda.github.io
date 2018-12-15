@@ -1,0 +1,30 @@
+<script>
+
+    var pie4 = c3.generate({
+        bindto: '#pie4',
+        data: {
+            // iris data from R
+            columns: [
+                ['Cheryl Mills', 0.24761146496815287],
+                ['Huma Abedin', 0.2726910828025478],
+				['Jake Sullivan', 0.16719745222929935],
+				['Lauren Jiloty', 0.06628184713375797],
+				['Sidney Blumenthal', 0.07205414012738853],
+				['others', 0.17416401273885354]
+            ],
+            colors: {
+                'Cheryl Mills': '#a50000',
+                'Huma Abedin': '#7f0000',
+				'Jake Sullivan': '#f16949',
+				'Lauren Jiloty': '#fed5a0',
+				'Sidney Blumenthal': '#fdd19b',
+				'others': '#afafaf'
+            },
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+
+</script>
