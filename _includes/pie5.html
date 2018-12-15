@@ -1,0 +1,24 @@
+<script>
+
+    var pie5 = c3.generate({
+        bindto: '#pie5',
+        data: {
+            // iris data from R
+            columns: [
+                ['sent from Hillary', 0.25084959093769665],
+                ['received by Hillary',  0.6893643801132788],
+				['unknown', 0.05978602894902452]
+            ],
+            colors: {
+                'sent from Hillary': '#3ce8ba',
+                'received by Hillary': '#f2a841',
+				'unknown': '#afafaf'
+            },
+            type : 'pie',
+            onclick: function (d, i) { console.log("onclick", d, i); },
+            onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+            onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+        }
+    });
+
+</script>

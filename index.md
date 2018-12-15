@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Secrets inside Clinton's email
+bigimg: profile.png
 ---
 > By Junze Li, Yusi Zou, Zhantao Deng
 
@@ -8,77 +9,146 @@ title: Secrets inside Clinton's email
 {% include_relative _includes/scripts.html %}
 
 
-## **Background**
+# **Background**
 <div align="justify">
-<p>
-In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. 
-</p>
+<p>In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. </p>
 
-<p>
-We will look at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle</a>. We will also analyze the personal social network of Hillary Clinton and the top topics they discussed.
-</p>
+<p>We will look at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle</a>. We will also analyze the personal social network of Hillary Clinton and the top topics they discussed.</p>
 
-<p>
-As a superpower, the United States has a great impact on the world’s stability, and their position and attitude will strongly influence the international affairs. We want to figure out the countries mainly mentioned, the problems concerned and conclude the impact they made on the international affairs throughout the analysis of these emails.
-</p>
+<p>As a superpower, the United States has a great impact on the world’s stability, and their position and attitude will strongly influence the international affairs. We want to figure out the countries mainly mentioned, the problems concerned and conclude the impact they made on the international affairs throughout the analysis of these emails.</p>
 </div>
 &nbsp;
 
 ---
 &nbsp;
 
+# **Who is she talking to?**
+<div align="justify"><p>
+	Let's first have a look at to whom does Hillary communicate most in both directions.
+</p></div>
 
-## **She's talking with these people ...**
+<div align="center">
+	<font size="+1">Receivers of emails sent by Hillary</font>
+</div>
 
-Let's first have a look at to whom does Hillary communicate most in both directions.
-
-> barplot 
->
-> 15 most freqent senders  // frequent receivers
-> 
 <div id="pie3"></div>
 {% include_relative _includes/pie3.html %}
+
+<div align="justify">
+<p>We can see that Hillary Clinton writes mostly to these 5 people: they receive 81% of all emails that Hillary writes! </p>
+<p>Is there a similar case for the inverse direction of the communication?🤔 </p>
+</div>
+
+&nbsp;
+
+<div align="center">
+	<font size="+1">Sender of emails received by Hillary</font>
+</div>
 
 <div id="pie4"></div>
 {% include_relative _includes/pie4.html %}
 
-There are obviously some people who are much closer to Hillary. We highlight those people and have a glance at their position.
+<div align="justify">
+Again, 5 people write 83% of emails that are written to Hillary! However, the important people change. We highlight those people and have a glance at their position.
+</div>
 
-> 一通分析。。。最好高级点，漂亮点酱
-
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
 &nbsp;
 
-_**An interesting observation**: The difference of the person's position in the two tables can report other information. For example, Huma Abedin, the person that receives the most emails FROM Hillary, is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports._
+**Huma Abedin** : the most frequent sender
+>- _**Vice chair of Hillary Clinton's 2016 campaign** for President of the United States._
+- _**Deputy chief of staff to Clinton**, who was U.S. Secretary of State from 2009 to 2013._
+- _**Traveling chief of staff and former assistant for Clinton** during Clinton's campaign for the Democratic nomination in the 2008 presidential election._ 
 
+_An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports._
+
+She is clearly the right-hand woman of Hillary Clinton.
+
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
 &nbsp;
 
-### **Some interesting observations**
+**Cheryl Mills** : the 2nd most frequent sender and the most frequent receiver
+> - _**Counselor and Chief of Staff to Hillary Clinton** during her whole tenure as United States Secretary of State_.
+- _**Senior Adviser and Counsel for Hillary Clinton's 2008 presidential campaign**, and is considered a member of Hillary Clinton's group of **core advisers**, self-designated as "Hillaryland"._
+- _**Deputy White House Counsel for President Bill Clinton**, whom she defended during his 1999 impeachment trial._
 
-**- Emails from anonymous senders are mostly partially released**
->pie chart  
->explanation of context and result 
+Another right-hand woman of Hillary Clinton. From the last point we can also see that she is loyal to the Clinton family.
 
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
+
+**Jacob Jeremiah Sullivan (Jake Sullivan)** : the 3rd most frequent sender and the 14-th most frequent receiver.
+>- _American policymaker, **senior policy advisor to Hillary Clinton**'s 2016 U.S. presidential election campaign, with expertise in foreign policy._
+- _**Deputy Chief of Staff to U.S. Secretary of State Hillary Clinton**._ 
+- _**Deputy policy director on Hillary Clinton**'s 2008 presidential primary campaign._
+
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
+
+**Sidney Blumenthal** : the 4-th most frequent sender and the 7-th most frequent receiver.
+>- _**Journalist, activist**, writer, and political aide._
+- _Former aide to President Bill Clinton._
+- _A long-time **confidant of Hillary Clinton**._
+- _Formerly employed by the **Clinton Foundation**._
+
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
+
+<div align="justify">
+<p>These are people with whom Hillary communicate most frequently, and they are clearly politicians, collegues of Hillary Clinton. We conclude that she definitely use her personal email accounts on non-government servers and send professional emails to her collegues during her time as the United States Secretary of State, which is a severe threat for the national security.</p>
+
+<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.</p>
+</div>
+
+### Some interesting observations
+
+<font size="+1"><b>Emails from anonymous senders are mostly partially released</b></font>
+
+<div align="justify">
+The data set provides us informtion about whether the email is fully or partially released by the States Department. We use this information to observe whether this is related to the anonymity of senders. 
+</div>
+
+<div align="center">
+	<font size="+1">All emails sent to Hillary</font>
+</div> 
 <div id="pie1"></div>
 {% include_relative _includes/pie1.html %}
 
+<div align="center">
+	<font size="+1">Anonymous emails sent to Hillary</font>
+</div> 
 <div id="pie2"></div>
 {% include_relative _includes/pie2.html %}
 
-
+<div align="justify">
+<p>We suppose that the anonymous emails sent to Hillary are possibly confidential, that the sender is erased by the State Department before release. Almost all of them are released partially.</p>
+</div>
 &nbsp;
 
-**- Hillary as sender VS Hillary as receiver**
 
->pie chart  
->so?
+<font size="+1"><b>Hillary as sender VS Hillary as receiver</b></font>
 
+<div id="pie5"></div>
+{% include_relative _includes/pie5.html %}
+
+<div align="justify">Among all emails released by the State Department, 25.08% are sent by Hillary Clinton and 68.94% are received by Hillary.</div>
 
 &nbsp;
 
 ---
 &nbsp;
 
-## **She's concerned about these countries ...** 
+# **Which country is focused?** 
 
 <iframe src="map_borders.html" width="100%" height="400">Your browser does not support iframes.</iframe>
 
@@ -95,33 +165,17 @@ Let's have a look at the timing of mentioning those countries.
 ---
 &nbsp;
 
-## **She's attitude to these countries ...**
+# **What does she think about these countries?**
 Hillary was the secretary of state and responsible for diplomacy of US in the period from 2008 to 2013. Therefore, from her emails, we can find out the attitude of US in diplomatic relations with other countries.
 > 上图！正
 > 
 
-<!--
-<video width="660" height="440" autoplay="autoplay" loop="loop">
-  <source src="country-occ.mp4" type="video/mp4">
-</video>
--->
 
 <video width="720" height="480" autoplay muted loop>
   <source src="country-occ.mp4" type="video/mp4">
   <p>Your browser does not support the video element.</p>
 </video>
 
-<!--
-<iframe 
-    width="100%" 
-    height="418" 
-    autoplay="autoplay"
-    loop="loop"
-    src="country-occ.mp4"
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
--->
 
 {% include_relative _includes/bar_plot_top20_occurence.html %}
 
@@ -185,7 +239,7 @@ After analysis about the bilateral relations with some typical countries, we fin
 ---
 &nbsp;
 
-## **She's talking about these topics ...**
+# **What are the main topics?**
 >wordcloud  
 >分析一通这些词  
 
@@ -199,5 +253,5 @@ After analysis about the bilateral relations with some typical countries, we fin
 ---
 &nbsp;
 
-## **Conclusion**
+# **Conclusion**
 > you know...
