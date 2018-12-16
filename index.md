@@ -5,6 +5,7 @@ title: Secrets inside Clinton's emails
 
 {% include_relative _includes/styles.html %}
 {% include_relative _includes/scripts.html %}
+<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
 <!--COVER-->
 <img src="/img/cover.jpg" class="img-centered" style="width:100%; height=100%;">
@@ -84,7 +85,7 @@ Again, 5 people write 83% of emails that are written to Hillary! However, the im
 <div align="justify">
 <p>These are people with whom Hillary communicate most frequently, and they are clearly politicians, colleagues of Hillary Clinton. She definitely use her personal email accounts on non-government servers and send professional emails to her colleagues during her time as the United States Secretary of State, which is a severe threat for the national security.</p>
 
-<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.</p>
+<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). That's shocking.</p>
 </div>
 
 <div align="center">
@@ -204,7 +205,7 @@ Here we also construct a <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">
 <font size="+1"><b>EU three, P5+1</b>: <span style="background-color:#fffdc4">Iran nuclear program</span></font><br>
 
 <font size="+1"><i>September 2009</i></font><br>
-<p>On 21 September 2009, Iran informed the IAEA that it was constructing a second enrichment facility. The following day IAEA Director General ElBaradei informed the United States, and two days later (24 September) the `United States`, `United Kingdom` and `France` briefed the IAEA on an enrichment facility under construction at an underground location at Fordu, 42 kilometres north of Qom. </p>
+<p>On 21 September 2009, Iran informed the IAEA that it was constructing a second enrichment facility. The following day IAEA Director General ElBaradei informed the United States, and two days later (24 September) the United States, United Kingdom and France briefed the IAEA on an enrichment facility under construction at an underground location at Fordu, 42 kilometres north of Qom. </p>
 <font size="+1"><i>November 2009</i></font><br>
 <p>In November 2009, the IAEA's 35-nation Board of Governors overwhelmingly backed a demand that Iran immediately stop building its newly revealed nuclear facility and freeze uranium enrichment.</p>
 </div>
@@ -322,4 +323,20 @@ After analysis about the bilateral relations with some typical countries, we fin
 
 <div align="center">
 <font size="+1"><h1><b>Conclusion</b></h1></font>
+</div>
+
+<div align="justify">
+By explorating Hillary Clinton's emails, we conclude that: <br>
+
+<ul>
+- Hillary sends professional emails to her colleagues via her personal email account on non-government servers during her tenure as Secretary of State.<br>
+- The keywords and topics in Hillary’s emails are associated with the international events.<br>
+- The sentiment to other countries shown in her emails can reflect the national strategy of U.S. and may influence bilateral diplomatic relations. <br>
+</ul>
+
+<p>The above findings make us think that using personal emails for discussing international affaires may <b>cause severe consequences to the national security and diplomacy.</b></p>
+
+<p>It is almost unimaginable how come a politician at her position can be that inprudent. Her "little" mistake may, in the worst case, <b>cause all people of her country in trouble</b>. The image, not only of Hillary's, but also of "American politicians" in general, is worsened from an outside point of view. </p>
+
+<p><b>Surely that we hope to see a transparent world, but when something is related to confidential information concerning the national security, it should be prudently treated.</b></p>
 </div>
