@@ -48,7 +48,7 @@ title: Secrets inside Clinton's emails
 
 <div align="justify">
 <p>We can see that Hillary Clinton writes mostly to these 5 people: they receive 81% of all emails that Hillary writes! </p>
-<p>Is there a similar case for the inverse direction of the communication?🤔 </p>
+<p>Is there a similar case for the inverse direction of the communication?</p>
 </div>
 
 
@@ -84,7 +84,7 @@ Again, 5 people write 83% of emails that are written to Hillary! However, the im
 <div align="justify">
 <p>These are people with whom Hillary communicate most frequently, and they are clearly politicians, colleagues of Hillary Clinton. She definitely use her personal email accounts on non-government servers and send professional emails to her colleagues during her time as the United States Secretary of State, which is a severe threat for the national security.</p>
 
-<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.😨</p>
+<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.</p>
 </div>
 
 <div align="center">
@@ -180,7 +180,7 @@ Here we also construct a <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">
 &nbsp; 
 
 <div align="justify">
-<p>This gives us an idea about the events related to each country. Is it related to what they discussed in the emails?🤔 </p>
+<p>This gives us an idea about the events related to each country. Is it related to what they discussed in the emails?</p>
 
 <p>We can figure it out by grouping occurrences by month and draw several line charts. </p>
 </div>
