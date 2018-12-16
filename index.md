@@ -68,13 +68,14 @@ Again, 5 people write 83% of emails that are written to Hillary! However, the im
 
 <!--BUTTONS-->
 
-<button class="button" onclick="changeContactPeople('Huma Abedin')">Huma Abedin</button>
-<button class="button" onclick="changeContactPeople('Cheryl Mills')">Cheryl Mills</button>
-<button class="button" onclick="changeContactPeople('Jacob Jeremiah Sullivan')">Jacob Jeremiah Sullivan</button>
-<button class="button" onclick="changeContactPeople('Sidney Blumenthal')">Sidney Blumenthal</button>
+<font size="-1"><i>Click on their photos to see their political position. </i></font><br>
+<button class="button" onclick="changeContactPeople('Huma Abedin')"><img src="/img/huma.jpg" style="width:60%; height=60%;"></button>
+<button class="button" onclick="changeContactPeople('Cheryl Mills')"><img src="/img/cheryl.jpg" style="width:60%; height=60%;"></button>
+<button class="button" onclick="changeContactPeople('Jacob Jeremiah Sullivan')"><img src="/img/jake.jpg" style="width:60%; height=60%;"></button>
+<button class="button" onclick="changeContactPeople('Sidney Blumenthal')"><img src="/img/sidney.jpg" style="width:60%; height=60%;"></button>
 
 <p id="description">
-<b>Huma Abedin</b> : the most frequent sender.<br><br>  -<i><b>Vice chair of Hillary Clinton's 2016 campaign</b> for President of the United States.</i><br><br>  -<i><b>Deputy chief of staff to Clinton</b>, who was U.S. Secretary of State from 2009 to 2013.</i><br><br>  -<i><b>Traveling chief of staff and former assistant for Clinton</b> during Clinton's campaign for the Democratic nomination in the 2008 presidential election.</i><br><br><i>An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports.</i><br><br>She is clearly the right-hand woman of Hillary Clinton.
+<b>Huma Abedin</b> : the most frequent sender.<br><br>   -<i><b>Vice chair of Hillary Clinton's 2016 campaign</b> for President of the United States.</i><br>  -<i><b>Deputy chief of staff to Clinton</b>, who was U.S. Secretary of State from 2009 to 2013.</i><br>  -<i><b>Traveling chief of staff and former assistant for Clinton</b> during Clinton's campaign for the Democratic nomination in the 2008 presidential election.</i><br><br><i>An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports.</i><br>She is clearly the right-hand woman of Hillary Clinton.
 </p>
 
 <div align="center">
@@ -138,7 +139,7 @@ From there we extract the top 20 countries that are frequently discussed in the 
 And the strategic focus of Hillary Clinton, with respect to the total number of emails that countries in these regions/continents are mentioned:
 
 <!--RADAR-->
-<img src="/img/radarplot.png" class="img-centered" style="width:60%; height=60%;">
+<img src="/img/radarplot.png" class="img-centered" style="width:70%; height=70%;">
 
 <div align="justify">
 <p>It is obvious that the Middle East is the main focus of U.S. at that time. Most of the top 20 frenquently discussed countries are from this region. However, Haiti appeares surprisingly more than 400 times in Hillary's emails but it is not really a "big" country. This is possibly because the 2009 Haiti earthquake.</p>
@@ -198,6 +199,11 @@ Here we also construct a <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">
 <p>Direct negotiations between Israel and the Palestinian National Authority took place in September 2010 as part of the peace process, between United States President Barack Obama, Israeli Prime Minister Benjamin Netanyahu, and Palestinian Authority Chairman Mahmoud Abbas.</p>
 </div>
 
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
+
 <!--EU THREE-->
 {% include_relative _includes/France.html %}
 <div align="justify">
@@ -209,6 +215,11 @@ Here we also construct a <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">
 <p>In November 2009, the IAEA's 35-nation Board of Governors overwhelmingly backed a demand that Iran immediately stop building its newly revealed nuclear facility and freeze uranium enrichment.</p>
 </div>
 
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
+
 <!--BRAZIL CHINA-->
 {% include_relative _includes/Brazil.html %}
 <div align="justify">
@@ -218,7 +229,7 @@ Here we also construct a <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">
 <font size="+1"><span style="color:#e2a146;"><b>China</b></span>: <br>
 <span style="background-color:#fffdc4">2009 Obama visit to China</span> <i>December 2009</i></font><br>
 <p>US President Barack Obama visited China on November 15–18, 2009 to discuss economic worries, concerns over nuclear weapon proliferation, and the need for action against climate change.</p>
-<span style="background-color:#fffdc4">Approval of Taiwan Arms Sales</span> <i>January 2010</i><br>
+<font size="+1"><span style="background-color:#fffdc4">Approval of Taiwan Arms Sales</span> <i>January 2010</i></font><br>
 <p>The Obama administration approved an arms sales package to Taiwan worth more than $6 billion, a move that enraged China.</p>
 </div>
 
@@ -255,26 +266,26 @@ As a superpower in the world, U.S. is a very important actor in international co
 <div align="justify">
 <p>The Hilary's emails are within the period from 2008 to 2013, so we will associate US's policy and international events to the sentiments of Hilary's emails. We highlight some countries and regions here:</p>
 
-<b>China</b>:<br>
-<p>Obama was friendly with China during his presidency, and as a result, the bilateral relationship between China and US, two superpower in the world, maintains more or less stable in this period. For example, at the end of 2014, the US government carried out for the first time a 10-year visa policy to promote communication between the two countries. Meanwhile, after the 2008 international financial crisis, US was strongly influenced and wanted to recover it by strengthening cooperation in economics with China.</p>
+<p><b>China</b>:
+Obama was friendly with China during his presidency, and as a result, the bilateral relationship between China and US, two superpower in the world, maintains more or less stable in this period. For example, at the end of 2014, the US government carried out for the first time a 10-year visa policy to promote communication between the two countries. Meanwhile, after the 2008 international financial crisis, US was strongly influenced and wanted to recover it by strengthening cooperation in economics with China.</p>
 
-<b>India</b>: <br>
-<p>India, as the largest democracy country in population, has always maintained a closed bilateral relations with US and has widely communication and cooperation in economics and technology with US.</p>
+<p><b>India</b>: 
+India, as the largest democracy country in population, has always maintained a closed bilateral relations with US and has widely communication and cooperation in economics and technology with US.</p>
 
-<b>Oman</b>:<br>
-<p>Oman is a Middle East country with abundant oil reserve and the fortress country of the Strait of Hormuz, which attracts the attention of US government. And US and Oman launched negotiations on a Free Trade Agreement that were successfully concluded in October 2005. So the bilateral relation is positive and stable. </p>  
+<p><b>Oman</b>:
+Oman is a Middle East country with abundant oil reserve and the fortress country of the Strait of Hormuz, which attracts the attention of US government. And US and Oman launched negotiations on a Free Trade Agreement that were successfully concluded in October 2005. So the bilateral relation is positive and stable. </p>  
 
-<b>Haiti</b>:<br>
-<p>Haiti suffered a serious earthquake in January 2010. President Obama announced a 100m$ US aid package to help Haiti. We think that the emails mentioning Haiti are about supporting Haiti.</p>
+<p><b>Haiti</b>:
+Haiti suffered a serious earthquake in January 2010. President Obama announced a 100m$ US aid package to help Haiti. We think that the emails mentioning Haiti are about supporting Haiti.</p>
 
-<b>Russia</b>:<br>
-<p>The Crimean Crisis happened in 2014, and the tension was only after the crisis. Before the crisis Russia and US had kept cooperation.</p>
+<p><b>Russia</b>:
+The Crimean Crisis happened in 2014, and the tension was only after the crisis. Before the crisis Russia and US had kept cooperation.</p>
 
-<b>Japan, Brasil, Hongkong, ... </b>:<br>
-<p>Those are countries or region which are important economies and have no big conflit with US. So we think that emails mentioning these countries talk especially about cooperation.</p>
+<p><b>Japan, Brasil, Hongkong, ... </b>:
+Those are countries or region which are important economies and have no big conflit with US. So we think that emails mentioning these countries talk especially about cooperation.</p>
 
-<b>Qatar, Turkey, ... </b>:<br>
-<p>These Middle-east countries had no economic or political conflit with US at that period and US do need cooperation with countries with abundant oil reserve and alliance countries in the Middle-east area.</p>
+<p><b>Qatar, Turkey, ... </b>:
+These Middle-east countries had no economic or political conflit with US at that period and US do need cooperation with countries with abundant oil reserve and alliance countries in the Middle-east area.</p>
 </div>
 
 &nbsp;
