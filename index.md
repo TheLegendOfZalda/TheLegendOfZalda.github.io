@@ -5,7 +5,6 @@ title: Secrets inside Clinton's emails
 
 {% include_relative _includes/styles.html %}
 {% include_relative _includes/scripts.html %}
-<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
 
 <!--COVER-->
 <img src="/img/cover.jpg" class="img-centered" style="width:100%; height=100%;">
@@ -18,7 +17,7 @@ title: Secrets inside Clinton's emails
 </div>
 
 <div align="justify">
-<p>In 2015, Hillary Clinton has been embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. </p>
+<p>In 2015, Hillary Clinton was embroiled in controversy over the use of personal email accounts on non-government servers during her time as the United States Secretary of State. Over 2000 confidential emails were leaked, some of them are even classified as “Top Secret”. </p>
 
 <p>We will look at the politic, security and economic aspects through the 7945 leaked emails redacted and published by the State Department and cleaned by <a href="https://www.kaggle.com/kaggle/hillary-clinton-emails">Kaggle</a>. We will also analyze the personal social network of Hillary Clinton and the top topics they discussed.</p>
 
@@ -340,3 +339,16 @@ By explorating Hillary Clinton's emails, we conclude that: <br>
 
 <p><b>Surely that we hope to see a transparent world, but when something is related to confidential information concerning the national security, it should be prudently treated.</b></p>
 </div>
+
+&nbsp;
+
+---
+<!--CHAPTER: AUTHOR-->
+&nbsp;
+
+The research is made by the best team in the universe:   
+<center><a href="https://github.com/TheLegendOfZalda"><b><font size="+2">TheLegendOfZalda</font></b></a></center>
+
+<img src="/img/logo.png" class="img-centered" style="width:20%; height=20%;">
+
+<font size="-2">The logo is inspired by the logo of <ins>Zelda: Breath of the Wild</ins>. This is a good game but has nothing to do with our project. It's just our team is named <b>Zalda</b>.</font>
