@@ -57,7 +57,23 @@ Again, 5 people write 83% of emails that are written to Hillary! However, the im
 </div>
 &nbsp;
 
+<button class="button" onclick="changeContactPeople('Huma Abedin')">Huma Abedin</button>
+<button class="button" onclick="changeContactPeople('Cheryl Mills')">Cheryl Mills</button>
+<button class="button" onclick="changeContactPeople('Jacob Jeremiah Sullivan')">Jacob Jeremiah Sullivan</button>
+<button class="button" onclick="changeContactPeople('Sidney Blumenthal')">Sidney Blumenthal</button>
+
+<p id="description">
 **Huma Abedin** : the most frequent sender
+<br><br>
+>- _**Vice chair of Hillary Clinton's 2016 campaign** for President of the United States._
+- _**Deputy chief of staff to Clinton**, who was U.S. Secretary of State from 2009 to 2013._
+- _**Traveling chief of staff and former assistant for Clinton** during Clinton's campaign for the Democratic nomination in the 2008 presidential election._ 
+<br><br>
+_An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports._She is clearly the right-hand woman of Hillary Clinton.
+</p>
+
+**Huma Abedin** : the most frequent sender
+
 >- _**Vice chair of Hillary Clinton's 2016 campaign** for President of the United States._
 - _**Deputy chief of staff to Clinton**, who was U.S. Secretary of State from 2009 to 2013._
 - _**Traveling chief of staff and former assistant for Clinton** during Clinton's campaign for the Democratic nomination in the 2008 presidential election._ 
@@ -70,6 +86,7 @@ She is clearly the right-hand woman of Hillary Clinton.
 	<font size="+1">____________________</font>
 </div>
 &nbsp;
+
 
 **Cheryl Mills** : the 2nd most frequent sender and the most frequent receiver
 > - _**Counselor and Chief of Staff to Hillary Clinton** during her whole tenure as United States Secretary of State_.
