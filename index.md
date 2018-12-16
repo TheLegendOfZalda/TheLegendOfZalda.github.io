@@ -52,9 +52,6 @@ bigimg: profile.png
 Again, 5 people write 83% of emails that are written to Hillary! However, the important people change. We highlight those people and have a glance at their position.
 </div>
 
-<div align="center">
-	<font size="+1">____________________</font>
-</div>
 &nbsp;
 
 <button class="button" onclick="changeContactPeople('Huma Abedin')">Huma Abedin</button>
@@ -63,69 +60,23 @@ Again, 5 people write 83% of emails that are written to Hillary! However, the im
 <button class="button" onclick="changeContactPeople('Sidney Blumenthal')">Sidney Blumenthal</button>
 
 <p id="description">
-**Huma Abedin** : the most frequent sender
-<br><br>
->- _**Vice chair of Hillary Clinton's 2016 campaign** for President of the United States._
-- _**Deputy chief of staff to Clinton**, who was U.S. Secretary of State from 2009 to 2013._
-- _**Traveling chief of staff and former assistant for Clinton** during Clinton's campaign for the Democratic nomination in the 2008 presidential election._ 
-<br><br>
-_An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports._She is clearly the right-hand woman of Hillary Clinton.
+<b>Huma Abedin</b> : the most frequent sender.<br><br>  -<i><b>Vice chair of Hillary Clinton's 2016 campaign</b> for President of the United States.</i><br><br>  -<i><b>Deputy chief of staff to Clinton</b>, who was U.S. Secretary of State from 2009 to 2013.</i><br><br>  -<i><b>Traveling chief of staff and former assistant for Clinton</b> during Clinton's campaign for the Democratic nomination in the 2008 presidential election.</i><br><br><i>An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports.</i><br><br>She is clearly the right-hand woman of Hillary Clinton.
 </p>
 
-**Huma Abedin** : the most frequent sender
-
->- _**Vice chair of Hillary Clinton's 2016 campaign** for President of the United States._
-- _**Deputy chief of staff to Clinton**, who was U.S. Secretary of State from 2009 to 2013._
-- _**Traveling chief of staff and former assistant for Clinton** during Clinton's campaign for the Democratic nomination in the 2008 presidential election._ 
-
-_An interesting observation: She receives the most emails FROM Hillary, but is only the 8-th sender of emails TO Hillary. We guess that she excutes more Hillary's order than make reports._
-
-She is clearly the right-hand woman of Hillary Clinton.
-
 <div align="center">
 	<font size="+1">____________________</font>
 </div>
-&nbsp;
-
-
-**Cheryl Mills** : the 2nd most frequent sender and the most frequent receiver
-> - _**Counselor and Chief of Staff to Hillary Clinton** during her whole tenure as United States Secretary of State_.
-- _**Senior Adviser and Counsel for Hillary Clinton's 2008 presidential campaign**, and is considered a member of Hillary Clinton's group of **core advisers**, self-designated as "Hillaryland"._
-- _**Deputy White House Counsel for President Bill Clinton**, whom she defended during his 1999 impeachment trial._
-
-Another right-hand woman of Hillary Clinton. From the last point we can also see that she is loyal to the Clinton family.
-
-<div align="center">
-	<font size="+1">____________________</font>
-</div>
-&nbsp;
-
-**Jacob Jeremiah Sullivan (Jake Sullivan)** : the 3rd most frequent sender and the 14-th most frequent receiver.
->- _American policymaker, **senior policy advisor to Hillary Clinton**'s 2016 U.S. presidential election campaign, with expertise in foreign policy._
-- _**Deputy Chief of Staff to U.S. Secretary of State Hillary Clinton**._ 
-- _**Deputy policy director on Hillary Clinton**'s 2008 presidential primary campaign._
-
-<div align="center">
-	<font size="+1">____________________</font>
-</div>
-&nbsp;
-
-**Sidney Blumenthal** : the 4-th most frequent sender and the 7-th most frequent receiver.
->- _**Journalist, activist**, writer, and political aide._
-- _Former aide to President Bill Clinton._
-- _A long-time **confidant of Hillary Clinton**._
-- _Formerly employed by the **Clinton Foundation**._
-
-<div align="center">
-	<font size="+1">____________________</font>
-</div>
-&nbsp;
 
 <div align="justify">
-<p>These are people with whom Hillary communicate most frequently, and they are clearly politicians, collegues of Hillary Clinton. We conclude that she definitely use her personal email accounts on non-government servers and send professional emails to her collegues during her time as the United States Secretary of State, which is a severe threat for the national security.</p>
+<p>These are people with whom Hillary communicate most frequently, and they are clearly politicians, collegues of Hillary Clinton. She definitely use her personal email accounts on non-government servers and send professional emails to her collegues during her time as the United States Secretary of State, which is a severe threat for the national security.</p>
 
-<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.</p>
+<p>According to the FBI examination, <i>"over 100 emails containing classified information, including 65 emails deemed "Secret" and 22 deemed "Top Secret", none with classification markings. An additional 2,093 emails not marked classified were retroactively classified by the State Department."</i>(wikipedia). It is almost unimaginable how come a politician at her position can be that inprudent.😨</p>
 </div>
+
+<div align="center">
+	<font size="+1">____________________</font>
+</div>
+&nbsp;
 
 ### Some interesting observations
 
@@ -138,10 +89,9 @@ The data set provides us informtion about whether the email is fully or partiall
 {% include_relative _includes/double_pie.html %}
 
 <div align="justify">
-<p>We suppose that the anonymous emails sent to Hillary are possibly confidential, that the sender is erased by the State Department before release. Almost all of them are released partially.</p>
+<p>The anonymous emails sent to Hillary are possibly more confidential, that the sender is erased by the State Department before release. Almost all of them are released partially.</p>
 </div>
 &nbsp;
-
 
 <font size="+1"><b>Hillary as sender VS Hillary as receiver</b></font>
 
